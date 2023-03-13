@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* NavBar Component Style */
+.Navbar {
+    padding: 20px;
+    background: #FF4236;
+    color: white;
+}
+
+/* Main Component Style */
+.grid-container {
+    width: 70%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btn button {
+    border-style: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: #30a7d7;
+    color: #fff;
+    font-size: 1em;
+}
+
+/* Card Component Style */
+
+p {
+    margin: 0;
+}
+
+.Card {
+    background: white;
+    border-radius: 10px;
+}
+
+.Card__img {
+    text-align: center;
+}
+
+.Card__types {
+    display: flex;
+    justify-content: center;    
+}
+
+.Card__type {
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    background: cyan;
+    color: #fff;
+}
+
+.Card__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.Card__info {
+    margin-left: 10px;
+}
+
+.Card__data {
+    padding-bottom: 10px;
+}
+
+.Card__data .title {
+    font-weight: 700;
+}
